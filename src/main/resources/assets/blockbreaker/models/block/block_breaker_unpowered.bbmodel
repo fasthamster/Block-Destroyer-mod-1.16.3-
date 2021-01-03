@@ -1,0 +1,148 @@
+{
+	"meta": {
+		"format_version": "3.6",
+		"creation_time": 1609590574,
+		"model_format": "java_block",
+		"box_uv": false
+	},
+	"name": "block_braker_powered",
+	"parent": "",
+	"ambientocclusion": true,
+	"front_gui_light": false,
+	"visible_box": [1, 1, 0],
+	"resolution": {
+		"width": 16,
+		"height": 16
+	},
+	"elements": [
+		{
+			"name": "cube",
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"autouv": 1,
+			"color": 5,
+			"locked": false,
+			"origin": [8, 8, 8],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": 1},
+				"east": {"uv": [0, 0, 16, 16], "texture": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": 4},
+				"west": {"uv": [0, 0, 16, 16], "texture": 0},
+				"up": {"uv": [0, 0, 16, 16], "texture": 0},
+				"down": {"uv": [0, 0, 16, 16], "texture": 0}
+			},
+			"uuid": "2ae09ee5-9ebc-2c0f-e8e9-08dcb1e4f83a"
+		}
+	],
+	"outliner": [
+		{
+			"name": "VoxelShapes",
+			"origin": [8, 8, 8],
+			"uuid": "68dc329f-f29c-fd7e-6f10-ea6fc0707676",
+			"export": true,
+			"isOpen": true,
+			"locked": false,
+			"visibility": true,
+			"autouv": 0,
+			"children": []
+		}, "2ae09ee5-9ebc-2c0f-e8e9-08dcb1e4f83a"],
+	"textures": [
+		{
+			"path": "C:\\Mods\\BlockBreaker\\src\\main\\resources\\assets\\blockbreaker\\textures\\blocks\\side.png",
+			"name": "side.png",
+			"folder": "blocks",
+			"namespace": "blockbreaker",
+			"id": "0",
+			"particle": true,
+			"visible": true,
+			"mode": "bitmap",
+			"saved": true,
+			"uuid": "185b9918-c278-4553-e439-0d3c120476ac",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADeElEQVQ4TxWSy076XBTFzzk9BQoFLW21toiaGBDUxEkVo3GiMdGJb+DEF/AFnUu8G7UYEAp/Q+XycWmhLW1pv3S6k7XXXr+94Pn5uR2Px12MMWq1WoTruv7a2tpsPB6TnU4nsr6+DorFov/39wfK5TIhCIItiqKnKAq1vLxsQZ7nfYQQJEkSjMdjsLS0BLLZLPj5+QEIoYCiqCCfz8+Gw6H3+flJMgzznyRJuFKpLHEcN4OXl5eW67p4MpkEhmHAIAgQwzCh2AUAeP1+3y8UCmNd1/1KpRLFGDcPDw+XNU1bFUXRgLe3t5OPj4/I+/s7yuVyc8dxoKZpLsdxvel0mjIMI57L5fxutwsxxu7W1paBEEo/PDxEi8XiFJ6dnXmapkFd14OjoyMwHA7R09MTYFnWjMViE9M0yXQ6HaiquhCPx+HGxsYsnFWrVSTLsgl3d3fng8EASpLky7Ls0zSNFEUJ3QDP88CyLK/dbk/f3t6oMCLGeL64uIgcx3EPDg5ceHx87NRqtZDuTBRFolAohOdGy+Uy4DguoGl6XqvVwHw+RxRFOUEQjDKZDD0ajVAymcTw5ubGeH5+xpZl6bFYLLG3twer1Sr1+voKotEoXFhY8G3bDrLZbMDzvN1oNAJJkqLD4RDG43ECXl1dmRRFuc1msyMIAseybCwE1Gw24erqqr+9ve05juPZto1/f3/Dr+CVlZX5aDQCoijGIMdxc0mS3G63qxcKhTjGOFav18FsNkOlUsnjeX5erVaJdruNPM8zIIQ4m81OVFUNGayELh7Lsk6n0zHy+fxC2D7f9wOWZUFYoHq9TqqqSoQRHMf512q1BIqiwGAwcEqlEgUvLi5MRVGQruuuIAhkv98nNzc3XZ7nIU3TTrfbJb+/vyOCIAQEQUxIkgwNQKvVmuRyuRS8vr427u/vcVgUhmH8aDRKhAs0TUORSCRCEARqNBphxX3Lsvx0Oo1VVQ0sy7Jpmgbw9PTU8TzPTCaTQTqdNgmCiLmui0LyHMclNU0j7u/vQSaTMRmGISiKijw+PkLLsixBEKYwpEwQhCnLckjb1nU9oapqhGGYMAocj8fo7u4OkCQZpFKpQJZlt91uB19fX6FmAk9OTkzP8waZTCahKIoDITQkSWITiQTd6/VgKpUCLy8viOM4IAgC2NnZcXu9nlsul/39/X37f33d3xPdtWrkAAAAAElFTkSuQmCC"
+		},
+		{
+			"path": "C:\\Mods\\BlockBreaker\\src\\main\\resources\\assets\\blockbreaker\\textures\\blocks\\front_unpowered.png",
+			"name": "front_unpowered.png",
+			"folder": "blocks",
+			"namespace": "blockbreaker",
+			"id": "1",
+			"particle": false,
+			"visible": true,
+			"mode": "bitmap",
+			"saved": true,
+			"uuid": "2199ba28-71f0-9927-7ac2-a408cd0e55ec",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACj0lEQVQ4Tz1T3UpiURhdn2ke07I8mtlQENggXkRXgg9g0Fx3EyEFlS9QPUqX3Qb1AEHv4Fx0FUUkjDlYGRyzUjuevYf1gbNhc/72t7611reOHB8f24+PDySTSdvtdtHpdMQYg0QigVAohMFgABHhdziOg36/j+7VFX42m/i9ugrZ39+3vu/bWCzGAnl+fkYkEsH09LQe/vr6UqCZmRkF+P7+xo+zM4yXHB4emvf3d8lkMhiNRtpxcnISqVQKn5+fGA6HVkQkHo8r8HA4xN/raxRub/Enl4PUajXj+76Q8vn5ObLZrHahDO6pqSkF5P3j4yNyuRx+bWwgHo3CN8bKycmJGQwGQsqLi4uw1mJlZQWU8vr6ioWFBTw9PYH+8MzExATq9TqcmAMn6lg5Ojoy/X5fGVxcXODt7Q35fF6LPc9DEAQoFApqarPZhOu6WFpawijwkXYzkO3tbWOtFbpcqVRArZwKtdLE5eVl3N/fo91u6zdKIgMCU5rs7OxwCpifn1cGNI4y6DyvnA4nwGduerC+vq4SFeDg4MByPGTQarUQDodVJ7uxCw2l+8wCp0RZBCLD/wDUR4DT01PtMA4QQdhpdnYW6XQaNzc3KJfLypbAvMru7q6NRqNgDug+gaiZLLgIxk6USQZkeHd3p/7QUNnb22NQLAsfHh6EdHmQc6cfjUZDwegDi2ji2toaer2evpOtrS0biUSs67pSKpWUGs3jZjeCUT9ZFItFvLy84PLyUgEoXTY3Ny1pUmM2m7XGGKFBjPTc3Jzmn2ZSwjjmnU6HP53WKAC1MmVE5CHusRQy4SIQWdAvhoxyOGKpVquGHfhA3b1eT1gQBAHzIQQLhUKWE0kmkxp5z/Os53kavn8VZ3eLY2oHswAAAABJRU5ErkJggg=="
+		},
+		{
+			"path": "C:\\Mods\\BlockBreaker\\src\\main\\resources\\assets\\blockbreaker\\textures\\blocks\\rear.png",
+			"name": "rear.png",
+			"folder": "blocks",
+			"namespace": "blockbreaker",
+			"id": "2",
+			"particle": false,
+			"visible": true,
+			"mode": "bitmap",
+			"saved": true,
+			"uuid": "e7b25637-c877-e3f7-ddc4-025c8431d5b2",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB+0lEQVQ4Tz2TN85qMRBGxz855wLYET0IGqSLKAglQmIbdNSILbAHFkKFyDn76Qzys4Tsa8+c+fx5MKPRyH6/X/H7/fJ+v4X18/mU6/Uqf39/8vl8JJlMSjQalfv9LofDQcLhsFhrNcf0ej1LUCgU0kQAfLM+n88SDAY1EMDtdtPzx+Ohe5FIREy73bbQoJJEMmsqoYKEWCwmDBQaYzTZ7RvP8yybyH29Xjqn02mVu9vtJBAIaHVgwEmOx+MKBKwAghkACM7n86qCJIYDrNdrBXLmlJpms2kJdPKpPp/PNYhg7s11SqWSVCoVle6KcW7q9boliOp4gazFYiHL5fJnkjF6HebBYKAGUpA5k8mIaTQaqoBk6NlsVmazma4LhYICT6eTGthut2W1WimQVyPWtFoty3MxfD6f3n8ymSgQiQQ742q1muADcJ63WCyKGQ6HljsCIRDAeDxWGFVzuZxst1tN8DxPjsej+sKgwRTAFZzDyJ5Opyo7kUhoNe7PqFarqoqCl8tFn9N0Oh3tRKcAtzHP3ZXKJPGNQoxD3Waz+ZnY7/ctG1ABUZUfz4oKYDjOmlEul/+3uTZSt9vVRgLAQK5zGAg+cM4MGE/2+70qVg/oROjuGQEgGwiSOaNHXOcB4BtoKpX6/Rvdv9CZhmTWrjrV2MMLOhUwOcT8A3LQkgsOnFe1AAAAAElFTkSuQmCC"
+		},
+		{
+			"path": "C:\\Mods\\BlockBreaker\\src\\main\\resources\\assets\\blockbreaker\\textures\\blocks\\front_powered.png",
+			"name": "front_powered.png",
+			"folder": "blocks",
+			"namespace": "blockbreaker",
+			"id": "3",
+			"particle": false,
+			"visible": true,
+			"mode": "bitmap",
+			"saved": true,
+			"uuid": "3154a8c9-ca26-7cbe-3a7c-718589895997",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACjUlEQVQ4Tz2TTUsjXRSE60TjtyaxE6OBCIIDIoO4EvwBLty70SDK+LEe0PyN2bka3t2LYJif4salIrqIDlEj0yZqEpPuOzwXnIZDp9P31KmqU23Hx8fu9fVVqVTKvby8qF6vWxzHGhsbUyKRULvdlpnxXkNDQ2q1WoqKf/S7XNHXH99le3t7rtvtuuHhYRrs4eFByWRS4+Pj/vD7+7sHmpiY8AAfHx+q/fxPcvJlBwcHcaPRsFwup16v5ycODAxocnJSb29v6nQ6zsxsdHTUA3c6HUWFhqrffunL/yXZ4eFh3O12Dcqnp6fK5/N+CjKokZERD8jvm5sbzczMaGtrS2EYKp1Oy8rlctxutw3KhUJBzjnNzc0JKU9PT5qentbd3Z3whzN9fX06Pz+Xk1MmnXF2dHQUt1otz+Ds7EzPz8+an5/3zUyJokgLCwve1Gq1qiAIVCwW1Yu6ygY52ebmZuycM1xeW1sTWtkKWjFxdnZWV1dXqtVq/h2SYAAw0qxUKrEFTU1NeQYYhwyc58522ADPFB4sLy97iR5gf3/fsR4Y3N/fq7+/3+tkGlMwFPfJAltCFkAw/AeAPgBOTk78hM8AAcIk3M5ms7q4uNDq6qpnCzB329nZcYODgyIHuA8QmmHBBRiTkAkDGF5eXnp/MNR2d3cJiqPx+vraoMtB9o4ft7e3HgwfaMLEpaUlNZtN/59tbGy4ZDLpgiCwlZUVTw3zKKYBhn5YLC4u6vHxUZVKxQMg3dbX1x000ZjP510cx4ZBRDqTyfj8YyYSPmNer9f56HyPB0ArKQORQ9SnFJhwAQQL/CJkyGHFtr29HTOBB3Q3m02jIYoi8mGAJRIJx0ZSqZSPfBiGLgxDH76/G/J7MdCnsYIAAAAASUVORK5CYII="
+		},
+		{
+			"path": "C:\\Mods\\BlockBreaker\\src\\main\\resources\\assets\\blockbreaker\\textures\\blocks\\rear_unpowered.png",
+			"name": "rear_unpowered.png",
+			"folder": "blocks",
+			"namespace": "blockbreaker",
+			"id": "4",
+			"particle": false,
+			"visible": true,
+			"mode": "bitmap",
+			"saved": true,
+			"uuid": "e150a81c-994a-a73f-a736-7f68635f733a",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACIElEQVQ4Tz2TOW4qQRCGqz3sDDuWHnADH8MhOQgSJKwJWEKE5FtYZMSIK3AFi9iSfQIiy+yLWQxjfWX1Kwl1D1311V//9Jjn52f/drtJIBCQn58fYX8+n+VwOMjd3Z1cr1dJJpMSi8XkeDzKer0W9+NDkq+vsn18FNPpdHySwuGwFgLgmf1ut5NQKKRwAJxlgL28iA3jeZ7v+75EIhEtopg9nVBBUTwe13wUBhxH3Pd3+ff2JruHBzHNZtM3xqjcy+WiazqdVrnL5VKCwaB2BwYcNW4sJgnHEXHdPwDJBACS8/m8qqCIsICvry8FckYwnmk0Gj6JVj7dJ5OJJpH8/f2t4xSLRSmXyzqSbca5qdVqPkl0xwvmnU6nMpvNJBqNCuOhkLXX68npdFJlrJlMRky9XlcFFEPPZrMyHo91f39/r8DtdqsGep4nn5+fCuStkWuenp58XhfhOI7OPxwOFYhEktU415VqtSr4AJz5C4WCmH6/7zMjEBIBDAYDhdE1l8vJYrHQgmazKZvNRn0huGAKYATrMLJHo5HKTiQS2o35iUqloqpouN/vVZVptVp6E60C3MY8OyudKeIZhRiHuvl8/mdit9v1+QMqILry47WiAhiOsydKpdL/a47Bpt1u60UCQCDXOgwEHzhnBYwnq9VKFasH3ETo9jUCQDYQJHPGHbHfCACegaZSqb+v0X6F1jQks7fd6cZ/eMFNBUwNOb8S0I20ULc2nwAAAABJRU5ErkJggg=="
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-180, 0, -180],
+			"translation": [0.25, -2, -3.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-180, 0, -180],
+			"translation": [0.25, 2, 3.5],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-180, 0, 90],
+			"translation": [-1, 5.25, 0.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-180, 0, -180],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 1, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"gui": {
+			"rotation": [-180, 10, -180],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"scale": [0.87, 0.87, 0.87]
+		}
+	}
+}

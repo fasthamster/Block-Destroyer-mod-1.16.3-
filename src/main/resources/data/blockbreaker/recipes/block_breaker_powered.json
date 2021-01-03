@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#O#",
+        "CRC",
+        "#D#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stone"
+        },
+        "O": {
+            "item": "minecraft:observer"
+        },
+        "C": {
+            "item": "minecraft:cobblestone"
+        },
+        "R": {
+            "item": "minecraft:redstone_block"
+        },
+        "D": {
+            "item": "minecraft:diamond_pickaxe"
+        }
+    },
+    "result": {
+    "item": "blockbreaker:block_breaker_powered",
+    "count": 1
+
+}
+}

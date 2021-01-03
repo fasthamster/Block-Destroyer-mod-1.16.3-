@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "blockbreaker:block/block_breaker_unpowered" },
+    "facing=south": { "model": "blockbreaker:block/block_breaker_unpowered", "y":  180},
+    "facing=west": { "model": "blockbreaker:block/block_breaker_unpowered", "y":  270},
+    "facing=east": { "model": "blockbreaker:block/block_breaker_unpowered", "y":  90}
+  }
+}
